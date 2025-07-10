@@ -9,7 +9,8 @@ static const unsigned int alpha = 0xff;       /* Amount of opacity. 0xff is opaq
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"JetBrainsMono Nerd Font:size=11"
+	"JetBrainsMono Nerd Font:size=11:antialias=true:autohint=true",
+    "Noto Sans CJK KR:size=10:antialias=true:autohint=true"
 };
 
 static const char *colors[SchemeLast][2] = {
